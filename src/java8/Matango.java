@@ -2,6 +2,6 @@ package java8;
 
 public class Matango {
 	int hp;
-	int level = 10;
+	final int LEVEL = 10; //レベルの数字を指定して初期化
 
 }
